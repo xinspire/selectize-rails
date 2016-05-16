@@ -3627,6 +3627,7 @@
 					if (self.deleteSelection()) {
 						self.setCaret(self.items.length);
 					}
+					e.stopPropagation();
 				});
 	
 			};
