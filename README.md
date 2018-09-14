@@ -28,34 +28,41 @@ In your `application.css`, include the following:
  *= require selectize.default
 ```
 
+Or if you like, you could use import instead
+
+```sass
+@import 'selectize'
+@import 'selectize.bootstrap3'
+```
+
 ### Themes
 
-To include additional theme's you can replace the `selectize.default` for one of the [theme files](https://github.com/brianreavis/selectize.js/tree/master/dist/css)
+To include additional theme's you can replace the `selectize.default` for one of the [theme files](https://github.com/selectize/selectize.js/tree/master/dist/css)
 
 
 ## Examples
 
-See the [demo page of Brian Reavis](http://brianreavis.github.io/selectize.js/) for examples how to use the plugin
+See the [demo page](http://selectize.github.io/selectize.js/) for examples how to use the plugin
 
 ## Changes
 
-| Version  | Notes                                                       |
-| --------:| ----------------------------------------------------------- |
-|   0.12.1 | Update to v0.12.1 of selectize.js                           |
-|   0.12.0 | Update to v0.12.0 of selectize.js                           |
-|   0.11.2 | Update to v0.11.2 of selectize.js                           |
-|   0.11.0 | Update to v0.11.0 of selectize.js                           |
-|   0.9.1  | Update to v0.9.1 of selectize.js                            |
-|   0.9.0  | Update to v0.9.0 of selectize.js                            |
-|   0.8.5  | Update to v0.8.5 of selectize.js                            |
-|   0.8.4  | Update to v0.8.4 of selectize.js                            |
-|   0.8.3  | Update to v0.8.3 of selectize.js                            |
+| Version    | Notes                                                       |
+| ----------:| ----------------------------------------------------------- |
+|   0.12.5   | Update to v0.12.5 of selectize.js                           |
+|   0.12.4.1 | Moved css files to scss to be able to use `@import`         |
+|   0.12.4   | Update to v0.12.4 of selectize.js                           |
+|   0.12.3   | Update to v0.12.3 of selectize.js                           |
+|   0.12.2   | Update to v0.12.2 of selectize.js                           |
+|   0.12.1   | Update to v0.12.1 of selectize.js                           |
+|   0.12.0   | Update to v0.12.0 of selectize.js                           |
+|   0.11.2   | Update to v0.11.2 of selectize.js                           |
+|   0.11.0   | Update to v0.11.0 of selectize.js                           |
 
 [older](CHANGELOG.md)
 
 ## License
 
-* The [selectize.js](http://brianreavis.github.io/selectize.js/) plugin is licensed under the
+* The [selectize.js](http://selectize.github.io/selectize.js/) plugin is licensed under the
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 * The [selectize-rails](https://github.com/manuelvanrijn/selectize-rails) project is
  licensed under the [MIT License](http://opensource.org/licenses/mit-license.html)
