@@ -1285,6 +1285,10 @@
 				$dropdown.addClass(classes_plugins);
 			}
 
+      if (typeof settings.maxItems === 'function') {
+        settings.maxItems = settings.maxItems($input);
+      }
+
 			if ((settings.maxItems === null || settings.maxItems > 1) && self.tagType === TAG_SELECT) {
 				$input.attr('multiple', 'multiple');
 			}
