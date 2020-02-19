@@ -2,6 +2,7 @@
 
 | Version  | Notes                                                       |
 | --------:| ----------------------------------------------------------- |
+|   0.12.6 | Update to v0.12.6 of selectize.js (with Xinspire changes)   |
 |   0.12.5 | Update to v0.12.5 of selectize.js                           |
 |   0.12.4 | Update to v0.12.4 of selectize.js                           |
 |   0.12.3 | Update to v0.12.3 of selectize.js                           |
