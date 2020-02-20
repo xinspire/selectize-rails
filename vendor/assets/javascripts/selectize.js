@@ -1255,6 +1255,7 @@
 			var classes;
 			var classes_plugins;
 			var inputId;
+			var inputTitle;
 
 			inputMode         = self.settings.mode;
 			classes           = $input.attr('class') || '';
@@ -1269,6 +1270,10 @@
 			if(inputId = $input.attr('id')) {
 				$control_input.attr('id', inputId + '-selectized');
 				$("label[for='"+inputId+"']").attr('for', inputId + '-selectized');
+			}
+
+			if(inputTitle = $input.attr('title')){
+				$control_input.attr('title', inputTitle);
 			}
 
 			if(self.settings.copyClassesToDropdown) {
